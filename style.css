@@ -1,0 +1,40 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color:darkgray;
+}
+h1{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: grey;
+}
+figure{
+    width: 358px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
+img{
+    border-radius: 10px;
+}
+#california{
+    background-image: url('./img/img01.jpg');
+}
+#california:hover{
+    background-image: url('./img/california.png');
+}
+#canoa{
+    background-image: url('./img/img02.jpg');
+}
+#canoa:hover{
+    background-image: url('./img/canoa_quebrada.png');
+}
+#praia_canoa{
+    background-image: url('./img/img03.jpg');
+}
+#praia_canoa:hover{
+    background-image: url('./img/praiacanoa.png');
+} 
